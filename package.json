@@ -2,7 +2,7 @@
   "name": "microfrontend-react-app1",
   "version": "1.0.0",
   "description": "Package for project wich will be included into microfrontend-react-root project. Based on React and export single-spa hook functions",
-  "main": "index.js",
+  "main": "dist/bundle.js",
   "scripts": {
     "start": "webpack && webpack-dev-server"
   },
