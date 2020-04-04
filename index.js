@@ -9,7 +9,7 @@ function App() {
 
 // ReactDOM.render(<App />, document.getElementById('app1-container'))
 
-module.exports.bootstrap = function(props) {
+export function bootstrap(props) {
     console.log('React app 1 bootstrap. Props:', props)
     return Promise
         .resolve()
@@ -18,7 +18,7 @@ module.exports.bootstrap = function(props) {
         })
 }
 
-module.exports.mount = function(props) {
+export function mount(props) {
     console.log('React app 1 mount. Props:', props);
     return Promise
         .resolve()
@@ -26,7 +26,8 @@ module.exports.mount = function(props) {
             ReactDOM.render(<App />, document.getElementById('app1-container'));
         })
 }
-module.exports.unmount = function(props) {
+
+export function unmount(props) {
     console.log('React app 1 unmount. Props:', props);
     return Promise
         .resolve()
@@ -34,3 +35,5 @@ module.exports.unmount = function(props) {
             ReactDOM.unmountComponentAtNode(document.getElementById('app1-container'));
         })
 }
+
+export default 'Test message';
