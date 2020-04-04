@@ -7,7 +7,7 @@ function App() {
     )
 }
 
-ReactDOM.render(<App />, document.getElementById('app1-container'))
+// ReactDOM.render(<App />, document.getElementById('app1-container'))
 
 export function bootstrap(props) {
     console.log('React app 1 bootstrap. Props:', props)
