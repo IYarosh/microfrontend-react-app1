@@ -1,3 +1,9 @@
+System.register([], function(__WEBPACK_DYNAMIC_EXPORT__) {
+
+	return {
+
+		execute: function() {
+			__WEBPACK_DYNAMIC_EXPORT__(
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -230,4 +236,8 @@ eval("\n\nif (false) {} else {\n  module.exports = __webpack_require__(/*! ./cjs
 
 /***/ })
 
-/******/ });
+/******/ })
+			);
+		}
+	};
+});
